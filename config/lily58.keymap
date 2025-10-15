@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &none     &kp CARET        &kp FSLH    &kp STAR  &kp MINUS  &kp DELETE
-&kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &none         &kp UP        &none         &none                                 &kp HOME  &kp N7           &kp N8      &kp N9    &kp PLUS   &kp BACKSPACE
-&kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp LEFT      &kp DOWN      &kp RIGHT     &none                                 &kp END   &kp N4           &kp N5      &kp N6    &kp EQUAL  &none
-&kp C_MUTE         &none                 &none         &none         &none         &none         &to 1        &to 0      &none     &kp N1           &kp N2      &kp N3    &kp ENTER  &none
-                                                       &none         &none         &none         &kp SPACE    &kp ENTER  &none     &kp KP_NUMBER_0  &kp KP_DOT
+&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none     &kp CARET        &kp FSLH    &kp STAR  &kp MINUS  &kp DELETE
+&kp TAB         &kp C_BRIGHTNESS_INC  &none         &kp UP        &none         &kp C_VOLUME_UP                          &kp HOME  &kp N7           &kp N8      &kp N9    &kp PLUS   &kp BACKSPACE
+&kp LEFT_SHIFT  &kp C_BRIGHTNESS_DEC  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOL_DN                             &kp END   &kp N4           &kp N5      &kp N6    &kp EQUAL  &none
+&kp LCTRL       &none                 &none         &none         &none         &kp C_MUTE       &to 1        &to 0      &none     &kp N1           &kp N2      &kp N3    &kp ENTER  &none
+                                                    &none         &none         &none            &kp SPACE    &kp ENTER  &none     &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
