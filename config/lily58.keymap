@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1     &kp F2      &kp F3          &kp F4                &kp F5            &kp F6                                  &kp F7           &kp F8             &kp F9                 &kp F10               &kp F11                &kp F12
-&kp GRAVE  &kt EXCL    &kt AT_SIGN     &kt HASH              &kt DOLLAR        &kt PERCENT                             &kt CARET        &kt AMPS           &kt ASTERISK           &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kt BACKSPACE
-&kp CAPS   &kp MINUS   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE                          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp EQUAL             &kp PLUS               &kp BSLH
-&kp LCTRL  &kp K_UNDO  &kp K_CUT       &kp K_COPY            &trans            &trans          &tog 1       &tog 2     &trans           &kp PIPE           &kp BACKSLASH          &kp LESS_THAN         &kp GREATER_THAN       &kp RSHIFT
-                                       &kp LEFT_GUI          &kp LEFT_ALT      &mo 1           &kp SPACE    &kp SPACE  &mo 2            &kp RIGHT_ALT      &kp RIGHT_WIN
+&kp F1     &kp F2        &kp F3          &kp F4                &kp F5            &kp F6                                      &kp F7           &kp F8             &kp F9                 &kp F10           &kp F11    &kp F12
+&kp GRAVE  &kp TILDE     &none           &none                 &none             &none                                       &none            &kp UNDER          &kp PLUS               &kp MINUS         &kp EQUAL  &kt BACKSPACE
+&kp CAPS   &kp MINUS     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE                              &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp LBKT          &kp RBKT   &kp BSLH
+&kp LCTRL  &kp C_REWIND  &kp C_PREVIOUS  &kp C_PLAY_PAUSE      &kp C_NEXT        &kp C_FAST_FORWARD  &tog 1       &tog 2     &none            &none              &kp LESS_THAN          &kp GREATER_THAN  &kp FSLH   &kp RSHIFT
+                                         &kp LEFT_GUI          &kp LEFT_ALT      &mo 1               &kp SPACE    &kp SPACE  &mo 2            &kp RIGHT_ALT      &kp RIGHT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none     &kp CARET        &kp FSLH    &kp STAR  &kp MINUS  &kp DELETE
-&kp TAB         &kp C_BRIGHTNESS_INC  &none         &kp UP        &none         &kp C_VOLUME_UP                          &kp HOME  &kp N7           &kp N8      &kp N9    &kp PLUS   &kp BACKSPACE
-&kp LEFT_SHIFT  &kp C_BRIGHTNESS_DEC  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOL_DN                             &kp END   &kp N4           &kp N5      &kp N6    &kp EQUAL  &none
-&kp LCTRL       &none                 &none         &none         &none         &kp C_MUTE       &tog 1       &tog 2     &none     &kp N1           &kp N2      &kp N3    &kp ENTER  &none
-                                                    &kp LGUI      &kp LALT      &mo 1            &kp SPACE    &kp SPACE  &mo 2     &kp KP_NUMBER_0  &kp KP_DOT
+&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp KP_NUMLOCK  &kp CARET        &kp FSLH         &kp STAR         &kp MINUS  &kp DELETE
+&kp TAB         &kp C_BRIGHTNESS_INC  &none         &kp UP        &none         &kp C_VOLUME_UP                          &kp HOME        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &kp BACKSPACE
+&kp LEFT_SHIFT  &kp C_BRIGHTNESS_DEC  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOL_DN                             &kp END         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL  &none
+&kp LCTRL       &none                 &none         &none         &none         &kp C_MUTE       &tog 1       &tog 2     &none           &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp ENTER  &none
+                                                    &kp LGUI      &kp LALT      &mo 1            &kp SPACE    &kp SPACE  &mo 2           &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
