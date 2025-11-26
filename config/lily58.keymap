@@ -46,7 +46,7 @@
 &kp GRAVE  &kp TILDE     &kp PLUS              &kp UNDER         &kp MINUS       &kp EQUAL                                   &none   &kp PLUS         &kp UNDER          &kp MINUS              &kp EQUAL  &kt BACKSPACE
 &kp CAPS   &none         &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &none                                       &none   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &none      &kp BSLH
 &kp LCTRL  &kp C_REWIND  &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_FAST_FORWARD  &kp ENTER    &to 2      &none   &none            &kp LESS_THAN      &kp GREATER_THAN       &kp FSLH   &kp RSHIFT
-                                               &kp LEFT_GUI      &kp LEFT_ALT    &mo 1               &kp SPACE    &kp SPACE  &mo 2   &kp RIGHT_ALT    &kp RIGHT_WIN
+                                               &kp LEFT_GUI      &kp LEFT_ALT    &none               &kp SPACE    &kp SPACE  &none   &kp RIGHT_ALT    &kp RIGHT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp KP_NUMLOCK  &kp CARET        &kp FSLH         &kp STAR         &kp MINUS  &kp DELETE
-&kp TAB         &kp C_BRIGHTNESS_INC  &none         &kp UP        &none         &kp C_VOLUME_UP                          &kp HOME        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &kp BACKSPACE
-&kp LEFT_SHIFT  &kp C_BRIGHTNESS_DEC  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOL_DN                             &kp END         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL  &none
-&kp LCTRL       &kp Z                 &kp X         &kp C         &kp V         &kp C_MUTE       &to 1        &kp ENTER  &none           &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp ENTER  &none
-                                                    &kp LGUI      &kp LALT      &mo 1            &kp SPACE    &kp SPACE  &mo 2           &kp KP_NUMBER_0  &kp KP_DOT
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp CARET             &kp SLASH        &kp ASTERISK     &kp MINUS        &none      &kp DELETE
+&kp TAB         &none         &kp HOME      &kp UP        &kp END       &kp C_VOLUME_UP                          &kp C_BRIGHTNESS_INC  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A         &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOL_DN                             &kp C_BRIGHTNESS_DEC  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &none
+&kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp C_MUTE       &kp ENTER    &kp ENTER  &kp KP_NUMLOCK        &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp ENTER  &none
+                                            &kp LGUI      &kp LALT      &mo 2            &kp SPACE    &kp SPACE  &none                 &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
